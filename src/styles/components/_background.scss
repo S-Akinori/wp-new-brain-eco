@@ -1,0 +1,5 @@
+@use '../global' as g;
+.c-background {
+    padding: .25rem;
+    background: linear-gradient(150deg, g.$main_color, g.$main_color 50%, g.$accent_color 50%);
+}

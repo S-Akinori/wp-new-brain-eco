@@ -1,0 +1,13 @@
+@use '../global' as g;
+.c-text-stroke {
+    color: g.$main_color_cont;
+    text-shadow: 
+    3px  3px 3px g.$main_color,
+   -3px  3px 3px g.$main_color,
+    3px -3px 3px g.$main_color,
+   -3px -3px 3px g.$main_color,
+    3px  0px 3px g.$main_color,
+    0px  3px 3px g.$main_color,
+   -3px  0px 3px g.$main_color,
+    0px -3px 3px g.$main_color; 
+}

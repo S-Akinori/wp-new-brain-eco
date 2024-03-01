@@ -3,7 +3,7 @@
     <div><h2 class="c-title"><span class="text-accent">蓄電池で</span>生活がかわる</h2></div>
     <div class="p-4">
       <div class="w-max max-w-full mx-auto pr-40 mb-8 relative">
-        <div class="font-extrabold text-3xl xs:text-5xl leading-tight">
+        <div class="font-black text-3xl xs:text-5xl leading-tight">
           <span class="c-mark">蓄電池<span class="text-2xl">の</span>導入<span class="text-2xl">で</span></span><br />
           電気代が
         </div>
@@ -14,7 +14,8 @@
           </div>
         </div>
       </div>
-      <div class="border-2 border-main mb-4">
+      <p class="mb-4 font-black text-3xl text-center"><span class="c-text-stroke">これ知らない人</span><span class="text-main">損してる！</span></p>
+      <div class="c-background mb-4">
         <img src="<?= get_template_directory_uri();?>/assets/images/graph.PNG" alt="">
       </div>
       <div class="text-xl font-bold text-center">小型太陽光パネルとの併用で最大2/3まで削減できます！</div>

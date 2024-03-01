@@ -550,24 +550,12 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 .right-0 {
@@ -583,16 +571,16 @@ video {
   margin-right: auto;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -607,16 +595,8 @@ video {
   display: table;
 }
 
-.hidden {
-  display: none;
-}
-
 .aspect-square {
   aspect-ratio: 1 / 1;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .w-max {
@@ -649,10 +629,6 @@ video {
   justify-content: center;
 }
 
-.whitespace-pre-wrap {
-  white-space: pre-wrap;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -664,11 +640,6 @@ video {
 .border-main {
   --tw-border-opacity: 1;
   border-color: rgb(100 197 232 / var(--tw-border-opacity));
-}
-
-.bg-main {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 197 232 / var(--tw-bg-opacity));
 }
 
 .bg-accent {
@@ -697,14 +668,9 @@ video {
   text-align: center;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-2xl {
@@ -712,14 +678,14 @@ video {
   line-height: 2rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-extrabold {
@@ -728,6 +694,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .leading-tight {
@@ -744,6 +714,11 @@ video {
   color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
+.text-main {
+  --tw-text-opacity: 1;
+  color: rgb(100 197 232 / var(--tw-text-opacity));
+}
+
 @media (min-width: 450px) {
   .xs\:text-5xl {
     font-size: 3rem;
@@ -752,19 +727,7 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .md\:mr-auto {
-    margin-right: auto;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:text-left {
-    text-align: left;
   }
 }
