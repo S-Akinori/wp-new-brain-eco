@@ -1,0 +1,4 @@
+@use '../global/' as g;
+.c-mark {
+    background: linear-gradient(to top, g.$accent_color, g.$accent_color 20%, transparent 20%);
+}
