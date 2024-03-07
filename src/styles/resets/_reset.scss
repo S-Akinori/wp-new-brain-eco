@@ -17,12 +17,13 @@ body {
   color: var(--base-cont);
   background: #EEEEEE;
   line-height: 1.5;
-  letter-spacing: 0.1em;
+  // letter-spacing: 0.1em;
   overflow-x: hidden;
   max-width: 600px;
   margin: 0 auto;
   // font-family: "Source Han Serif", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-weight: 700;
 }
 main {
   background: var(--base-color);
@@ -63,6 +64,9 @@ a {
 }
 a:hover {
   opacity: 0.8;
+}
+p {
+  margin-bottom: 1rem;
 }
 img {
   max-width: 100%;

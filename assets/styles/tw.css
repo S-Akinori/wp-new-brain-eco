@@ -608,6 +608,10 @@ video {
   width: 8rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -631,15 +635,6 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.border-2 {
-  border-width: 2px;
-}
-
-.border-main {
-  --tw-border-opacity: 1;
-  border-color: rgb(100 197 232 / var(--tw-border-opacity));
 }
 
 .bg-accent {
@@ -688,16 +683,12 @@ video {
   line-height: 1.75rem;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.font-black {
+  font-weight: 900;
 }
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-black {
-  font-weight: 900;
 }
 
 .leading-tight {

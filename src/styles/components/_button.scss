@@ -1,7 +1,39 @@
 @use '../global/' as g;
 .c-button {
-  padding: .5rem 1rem;
+  position: relative;
+  padding: 1rem;
   border-radius: 100vh;
+  border: 3px solid #C6B600;
   background: g.$accent_color;
   color: g.$base_color_cont;
+  font-size: 1.5rem;
+  animation: pulse 1.5s infinite;
+}
+
+.c-button::before {
+  content: '>';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+  // width: 100px;
+  height: 75%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: #FFF;
+  text-align: center;
+  line-height: 2;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
